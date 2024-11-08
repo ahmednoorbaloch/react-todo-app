@@ -1,0 +1,75 @@
+.main-card {
+    background-color: white !important;
+}
+
+.input-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#add-btn {
+    width: 100%;
+    background-color: rgb(9, 189, 159);
+    border: none;
+    font-size: large;
+}
+
+
+#todo-icon-main {
+    height: 37px !important;
+    width: 37px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(9, 189, 159);
+    top: 37px;
+    position: relative;
+
+}
+
+#todo-icon {
+    font-size: large;
+    color: aliceblue;
+}
+
+.all-done-todo-btn {
+    width: 100%;
+    background-color: rgb(9, 189, 159);
+    border: none;
+}
+
+#check-icon {
+    color: green;
+    font-size: 25px;
+}
+
+#edit-icon {
+    font-size: 25px;
+    color: rgb(62, 62, 61);
+}
+
+#delte-icon {
+    font-size: 25px;
+    color: red;
+}
+
+.delete-done-tasks-btn {
+    background-color: red;
+    border: none;
+    width: 100%;
+}
+
+.delete-all-tasks-btn {
+    background-color: red;
+    border: none;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .all-done-todo-main-btn {
+        margin: 5px 0px;
+    }
+}
